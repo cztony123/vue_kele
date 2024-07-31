@@ -4,6 +4,9 @@ import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
 import { Button } from 'vant';
+import { Toast } from 'vant';
+
+Vue.use(Toast);
 
 
 const routes = [
